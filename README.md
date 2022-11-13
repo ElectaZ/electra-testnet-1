@@ -37,20 +37,7 @@ There are 2 options to get the binary:
 wget http://electra01.alkia.net:3000/electrad.7z
 p7zip -d electrad.7z
 ```
-#### 1.1) Download from this repo the 2 splits of the file
-Github limit http upload to 25M max and we are a bit over so we needed to split in 2 files (command: <i>split -b 20M electra_linux_amd64.tar.gz </i>):
-
- * electra_linux_amd64.tar.gz.part_aa
- * electra_linux_amd64.tar.gz.part_ab
-
-    ##### 1.1.2) Reconstruct the binary
-    You join the files using the cat command. Employing cat is the most efficient and reliable method of performing a joining operation. 
-    ```
-    cat electra_linux_amd64.tar.gz.part_* > electra_linux_amd64.tar.gz
-    ```
-    #####Security note: Please check that the checksum provided match the reconstructed electra_linux_amd64.tar.gz
-
-    ##### 1.1.3) Untar
+#### 1.1.3) Untar
     ```
     tar -xvf electra_linux_amd64.tar.gz 
     ``` 
