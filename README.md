@@ -86,7 +86,7 @@ chmod a+x   /usr/local/bin/electrad
 sudo rm ~/.electra/ -r
 moniker="electra03"
 electrad tendermint unsafe-reset-all
-electrad init $moniker --chain-id electra-testnet-0    
+electrad init $moniker --chain-id electra-testnet-1    
 ```
 NOTES:
 * Use only alphanumeric characters, hyphens, and underscores for your node name.
