@@ -7,7 +7,7 @@
 
 | Network   |CPU | RAM  | Storage  | 
 |-----------|----|------|----------|
-| Testnet 0   |  2 | 8GB | 0.25TB SSD/NVMe |
+| Testnet 1   |  2 | 8GB | 0.25TB SSD/NVMe |
 | Mainnet   |  2 | 16GB | 0.5TB SSD/NVMe |
 
 - **testnet-0 official ports**:   
